@@ -1,0 +1,17 @@
+~~WIP~~
+
+Current: 
+2x2 matrix keypad which uses timers to debounce input & capture repeated input. No keyboard functionality present. Uses a ESP32-WROOM-32 dev board.
+I am using a 2600mah lithium ion battery to power the keypad.
+
+Goals:
+ - Setup bluetooth to wirelessly use the device.
+ - Code the keypad to create keyboard output on button press.
+ - Allow for programmable macros to be set.
+ - Create a GUI to send firmware updates to the device & to configure macros.
+      - Use .json file to store configurations.
+      - Setup OTA firmware flashing to reprogram the device wirelessly.
+ - 3D model a chassis to house the keypad & circuitry.
+ - Power saving functionality (i.e. turn off or enter a low power state after no input for an extended period of time).
+      
+ 
