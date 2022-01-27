@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ets_sys.h": "c",
+        "task.h": "c"
+    }
+}
